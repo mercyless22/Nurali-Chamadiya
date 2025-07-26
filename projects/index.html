@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Prof. Nurali Chamadiya</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+   
+ <script>
+      // Function to load external HTML components
+      function loadComponent(url, targetElementId, callback) {
+        fetch(url)
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(`Error loading ${url}: ${response.statusText}`);
+            }
+            return response.text();
+          })
+          .then((data) => {
+            document.getElementById(targetElementId).innerHTML = data;
+            if (callback) callback(); // Call the callback after loading the component
+          })
+          .catch((error) => {
+            console.error(error);
+            document.getElementById(
+              targetElementId
+            ).innerHTML = `<p>Unable to load content. Please try again later.</p>`;
+          });
+      }
+
+      // Load the navbar and footer HTML
+      loadComponent("/navbar/index.html", "navbar-placeholder");
+      loadComponent("/footer/index.html", "footer-placeholder");
+    </script>
+
+
+    
+    <div id="navbar-placeholder"></div>
+
+  <header class="section header">
+    <div class="container">
+      <h1>Training Projects</h1>
+      <p>Explore the impactful initiatives led by Prof. Nurali Chamadiya</p>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container project-grid" data-aos="fade-up">
+
+      <div class="project-card">
+        <img src="/assets/images/Special_Interest_Group(SiG)/IMG_2694.JPG" alt="SIG">
+        <h3>SIG - Special Interest Group</h3>
+        <a href="/projects/sig.html" class="btn btn-small">View Photos</a>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/images/group-discussion.jpg" alt="Group Discussion">
+        <h3>Group Discussion</h3>
+        <a href="projects/group-discussion.html" class="btn btn-small">View Photos</a>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/images/speaker-forum.jpg" alt="Speaker Forum">
+        <h3>Speaker Forum</h3>
+        <a href="projects/speaker-forum.html" class="btn btn-small">View Photos</a>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/images/resume-building.jpg" alt="Resume Building">
+        <h3>Resume Building</h3>
+        <a href="projects/resume-building.html" class="btn btn-small">View Photos</a>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/images/mock-pi.jpg" alt="Mock PI">
+        <h3>Mock PI - Industry Led</h3>
+        <a href="projects/mock-pi.html" class="btn btn-small">View Photos</a>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/images/interview-prep.jpg" alt="Interview Prep">
+        <h3>Interview Preparation</h3>
+        <a href="projects/interview-prep.html" class="btn btn-small">View Photos</a>
+      </div>
+
+    </div>
+  </main>
+  <!-- Footer placeholder -->
+    <div id="footer-placeholder"></div>
+
+  <!-- <footer class="footer">
+    <p>&copy; 2025 Prof. Nurali Chamadiya. All Rights Reserved.</p>
+  </footer> -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+
+</html>
