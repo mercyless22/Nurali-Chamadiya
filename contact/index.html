@@ -72,8 +72,8 @@
 
       <div class="contact-info">
         <h3>Connect</h3>
-        <p><i class="fas fa-envelope"></i> <a href="mailto:nurali@example.com">nurali@example.com</a></p>
-        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/nurali-chamadiya" target="_blank">LinkedIn</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:nurali.chamadiya@gmail.com">nurali.chamadiya@gmail.com</a></p>
+        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/nurali-chamadiya-374a11123/" target="_blank">LinkedIn</a></p>
         <p><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/@nuraliChamadiya" target="_blank">YouTube</a></p>
       </div>
 
@@ -89,6 +89,18 @@
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>AOS.init();</script>
+  <script>
+      document
+        .getElementById("contactForm")
+        ?.addEventListener("submit", function (e) {
+          const email = document.getElementById("email");
+          const message = document.getElementById("message");
+          if (!email.value || !message.value) {
+            alert("Please fill out all required fields.");
+            e.preventDefault();
+          }
+        });
+    </script>
 </body>
 
 </html>
