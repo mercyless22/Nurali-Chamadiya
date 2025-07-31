@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://nurali-chamadiya.netlify.app/</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://nurali-chamadiya.netlify.app/projects/</loc>
+  </url>
+  <url>
+    <loc>https://nurali-chamadiya.netlify.app/trainings/</loc>
+  </url>
+  <url>
+    <loc>https://nurali-chamadiya.netlify.app/certificates/</loc>
+  </url>
+  <url>
+    <loc>https://nurali-chamadiya.netlify.app/contact/</loc>
+  </url>
+
+
+
+  <!-- Projects -->
+  <url><loc>https://nurali-chamadiya.netlify.app/projects/resume-building.html</loc></url>
+  <url><loc>https://nurali-chamadiya.netlify.app/projects/sig.html</loc></url>
+  <url><loc>https://nurali-chamadiya.netlify.app/projects/speakers-forum.html</loc></url>
+  <url><loc>https://nurali-chamadiya.netlify.app/projects/classroom-engagement.html</loc></url>
+  <url><loc>https://nurali-chamadiya.netlify.app/projects/group-discussion.html</loc></url>
+  <url><loc>https://nurali-chamadiya.netlify.app/projects/index.html</loc></url>
+  <url><loc>https://nurali-chamadiya.netlify.app/projects/interview-skills.html</loc></url>
+  <url><loc>https://nurali-chamadiya.netlify.app/projects/mock-pi.html</loc></url>
+
+  <!-- Trainings -->
+  <url><loc>https://nurali-chamadiya.netlify.app/trainings/index.html</loc></url>
+  <url><loc>https://nurali-chamadiya.netlify.app/trainings/fdp.html</loc></url>
+  <url><loc>https://nurali-chamadiya.netlify.app/trainings/corporate-training.html</loc></url>
+  <url><loc>https://nurali-chamadiya.netlify.app/trainings/department-of-india.html</loc></url>
+
+</urlset>
