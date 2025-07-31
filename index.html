@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prof. Nurali Chamadiya | Training Professional</title>
-  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
       rel="stylesheet"
@@ -13,16 +16,16 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
-<!-- Bootstrap CSS (inside <head>) -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
+  <!-- Bootstrap CSS (inside <head>) -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
 
   <body>
-  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-   
- <script>
+    <script>
       // Function to load external HTML components
       function loadComponent(url, targetElementId, callback) {
         fetch(url)
@@ -49,8 +52,6 @@
       loadComponent("/footer/index.html", "footer-placeholder");
     </script>
 
-
-    
     <div id="navbar-placeholder"></div>
 
     <!-- Hero Section -->
@@ -75,21 +76,45 @@
       <div class="container" data-aos="fade-up">
         <h2 class="section-title">About Prof. Nurali</h2>
         <p>
-          Prof. Nurali Chamadiya is a dynamic training professional with
-          extensive experience in personality development, communication, and
-          corporate readiness. His passion lies in grooming students and
-          professionals to achieve their highest potential through innovative
-          training methodologies.
+          <center>
+            Prof. Nurali Chamadiya is a dynamic training professional with
+            extensive experience in personality development, communication, and
+            corporate readiness. His passion lies in grooming students and
+            professionals to achieve their highest potential through innovative
+            training methodologies.
+          </center>
         </p>
       </div>
+      <main class="gallery-section">
+        <div class="gallery-grid">
+          <img
+            src="/assets/images/NC_Profile/Profile_Pic.JPG"
+            alt="SIG Activity 1"
+          />
+          <img
+            src="/assets/images/NC_Profile/Award for Outstanding contribution to Marwadi University.jpg"
+            alt="SIG Activity 1"
+          />
+          <img
+            src="/assets/images/NC_Profile/IMG_3247.JPG"
+            alt="SIG Activity 1"
+          />
+          <img
+            src="/assets/images/Special_Interest_Group(SiG)/IMG_2694.JPG"
+            alt="SIG Activity 1"
+          />
+        </div>
+      </main>
     </section>
 
     <!-- Links Section -->
-    <section class="section links">
+    <section class="section links" id="connect">
       <div class="container" data-aos="fade-up">
         <h2 class="section-title">Connect & Follow</h2>
         <div class="icon-links">
-          <a href="https://www.linkedin.com/in/nurali-chamadiya-374a11123/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/nurali-chamadiya-374a11123/"
+            target="_blank"
             ><i class="fab fa-linkedin"></i> LinkedIn</a
           >
           <a href="https://www.youtube.com/@nuraliChamadiya" target="_blank"
@@ -106,7 +131,7 @@
     </section>
 
     <!-- Featured Video -->
-    <section class="section video">
+    <section class="section video" id="youtube">
       <div class="container" data-aos="fade-up">
         <h2 class="section-title">Featured Training Video</h2>
         <div class="video-wrapper">
@@ -114,6 +139,19 @@
             width="100%"
             height="400"
             src="https://www.youtube.com/embed/FO3l8clWm1c?si=CIHfEQRBCW1ldVZ3"
+            title="YouTube video player"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div class="container" data-aos="fade-up">
+        <h2 class="section-title">Virtual Teachers Empowerment Program</h2>
+        <div class="video-wrapper">
+          <iframe
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/MBqlr0GcpNI?si=K8NpcVEt-Bn1ourM"
             title="YouTube video player"
             frameborder="0"
             allowfullscreen
@@ -150,11 +188,10 @@
     </script>
 
     <!-- Contact Form Validation -->
-    
 
     <!-- Scroll to Top Button and Script -->
     <button onclick="topFunction()" id="scrollTopBtn" title="Go to top">
-        <i class="fas fa-arrow-up"></i>
+      <i class="fas fa-arrow-up"></i>
     </button>
     <style>
       #scrollTopBtn {
@@ -166,7 +203,7 @@
         font-size: 18px;
         border: none;
         outline: none;
-        background-color:  #004d40;
+        background-color: #004d40;
         color: white;
         cursor: pointer;
         padding: 10px;
