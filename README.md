@@ -64,7 +64,9 @@ git clone https://github.com/mercyless22/Nurali-Chamadiya.git
 cd nurali-chamadiya-portfolio
 
 # Open index.html in your browser
+````
 
+---
 
 ## 📌 Future Scope
 
