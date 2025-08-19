@@ -52,9 +52,10 @@ The website is lightweight, responsive, and optimized for both desktop and mobil
 ## 🚀 Deployment  
 The project is deployed using **Netlify**.  
 
-🔗 Live Demo: [https://nurali-chamadiya.netlify.app/](https://nurali-chamadiya.netlify.app/)  
-
-To set up locally:  
+🔗 Live Demo: [https://nurali-chamadiya.netlify.app/](https://nurali-chamadiya.netlify.app/) 
+ 
+To run locally:  
+```bash
 
 # Clone the repository
 git clone https://github.com/mercyless22/Nurali-Chamadiya.git
