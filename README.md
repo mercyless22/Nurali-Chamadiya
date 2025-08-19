@@ -57,7 +57,7 @@ The project is deployed using **Netlify**.
 To set up locally:  
 
 # Clone the repository
-git clone https://github.com/your-username/nurali-chamadiya-portfolio.git
+git clone https://github.com/mercyless22/Nurali-Chamadiya.git
 
 # Navigate into the project folder
 cd nurali-chamadiya-portfolio
