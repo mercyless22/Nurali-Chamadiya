@@ -92,6 +92,3 @@ This project is licensed under the **MIT License** – free to use and modify wi
 ---
 
 ⭐️ Developed by [Taher M Travadi](https://github.com/mercyless22) with ❤️
-
-```
-
