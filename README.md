@@ -95,8 +95,3 @@ This project is licensed under the **MIT License** – free to use and modify wi
 
 ```
 
----
-
-This is **ready to drop** into your repo as `README.md`.  
-Do you want me to now make a **generic screenshot template (blank images with text “Homepage”, “About” etc.)** that you can later replace with real screenshots?
-```
