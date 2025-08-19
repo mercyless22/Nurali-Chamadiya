@@ -35,14 +35,14 @@ The website is lightweight, responsive, and optimized for both desktop and mobil
 - **Homepage**  
   ![Homepage Screenshot](screenshots/homepage.png)  
 
-- **About Section**  
-  ![About Screenshot](screenshots/about.png)  
+- **Projects Section**  
+  ![About Screenshot](screenshots/program_detail.png)  
 
-- **Publications Section**  
-  ![Publications Screenshot](screenshots/publications.png)  
+- **Event Details Section**  
+  ![Publications Screenshot](screenshots/events.png)  
 
-- **Gallery Section**  
-  ![Gallery Screenshot](screenshots/gallery.png)  
+- **Certifications Section**  
+  ![Gallery Screenshot](screenshots/certificates.png)  
 
 - **Contact Section**  
   ![Contact Screenshot](screenshots/contact.png)  
